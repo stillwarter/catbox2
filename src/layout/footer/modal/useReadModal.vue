@@ -10,8 +10,6 @@ defineExpose({
 });
 watch(modalState, () => {
   if (modalState.value) {
-    console.log(1);
-
     handleOk();
   }
 });
@@ -45,8 +43,8 @@ const handleOk = () => {
     </p>
     <hr />
     <p>
-      由于未经过正式测试，某些功能可能存在问题，下次更新预计在25年底，有需要欢迎pr；
-      github：
+      由于未经过正式测试，某些功能可能存在问题，下次更新预计在25年底，有需要可以自行处理（Qwq）；
+      github：https://github.com/stillwarter/catbox2
     </p>
   </a-modal>
 </template>
