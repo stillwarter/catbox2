@@ -1,0 +1,64 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  max-width: 100vw;
+  margin: 0px;
+  user-select: none;
+}
+
+body,
+div,
+p,
+span {
+  font-family: "catbite";
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+p {
+  margin: 0 !important;
+}
+
+/* 全局滚动条样式 */
+::-webkit-scrollbar {
+  width: 4px; /* 设置滚动条的宽度 */
+}
+
+/* 设置横向滚动条的样式 */
+::-webkit-scrollbar:horizontal {
+  height: 4px !important;
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* 设置滑块的背景颜色 */
+  border-radius: 5px; /* 设置滑块的圆角 */
+}
+
+/* 自定义font */
+@font-face {
+  font-family: "catbite";
+  src: url("../font/猫啃什锦黑.woff2") format("woff2");
+  font-display: swap;
+}
+
+.iconbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardnoradius{
+  border-radius: 0 !important;
+}
+
+.centerbox{
+  display: flex;
+  align-items: center;
+}
